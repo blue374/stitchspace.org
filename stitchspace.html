@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduAI - AI-Powered STEM Education Videos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h1>EduAI</h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="hero-title">Revolutionizing STEM Education with AI</h2>
+                <p class="hero-subtitle">Creating engaging, personalized educational videos that make complex science and math concepts accessible to everyone</p>
+                <div class="hero-buttons">
+                    <a href="#pricing" class="btn btn-primary">Get Started</a>
+                    <a href="#about" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About EduAI</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">🤖</div>
+                    <h3>AI-Powered Content</h3>
+                    <p>Our advanced AI technology creates personalized educational videos tailored to individual learning styles and pace.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🔬</div>
+                    <h3>STEM Excellence</h3>
+                    <p>Comprehensive coverage of Science, Technology, Engineering, and Mathematics topics from elementary to advanced levels.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Adaptive Learning</h3>
+                    <p>Videos that adapt to your knowledge level, ensuring optimal comprehension and engagement throughout the learning journey.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">📊</div>
+                    <h3>Visual Learning</h3>
+                    <p>Complex concepts simplified through stunning visualizations, animations, and interactive demonstrations.</p>
+                </div>
+            </div>
+            
+            <div class="mission">
+                <h3>Our Mission</h3>
+                <p>We believe that quality STEM education should be accessible, engaging, and personalized. By leveraging cutting-edge AI technology, we're transforming how students learn complex scientific and mathematical concepts. Our platform generates custom educational videos that adapt to each learner's needs, making difficult topics intuitive and exciting.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Choose Your Plan</h2>
+            <p class="section-subtitle">Flexible pricing options for students, educators, and institutions</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 class="plan-name">Student</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">9</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="features">
+                        <li>✓ Access to all basic STEM topics</li>
+                        <li>✓ 50 AI-generated videos per month</li>
+                        <li>✓ Personalized learning path</li>
+                        <li>✓ Progress tracking</li>
+                        <li>✓ Email support</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Start Free Trial</a>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <div class="badge">Most Popular</div>
+                    <h3 class="plan-name">Educator</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">29</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="features">
+                        <li>✓ Everything in Student plan</li>
+                        <li>✓ Unlimited AI-generated videos</li>
+                        <li>✓ Classroom management tools</li>
+                        <li>✓ Custom curriculum builder</li>
+                        <li>✓ Student performance analytics</li>
+                        <li>✓ Priority support</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary">Start Free Trial</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3 class="plan-name">Institution</h3>
+                    <div class="price">
+                        <span class="amount">Custom</span>
+                    </div>
+                    <ul class="features">
+                        <li>✓ Everything in Educator plan</li>
+                        <li>✓ Unlimited seats</li>
+                        <li>✓ API access</li>
+                        <li>✓ Custom AI training</li>
+                        <li>✓ Dedicated account manager</li>
+                        <li>✓ SLA guarantee</li>
+                    </ul>
+                    <a href="#" class="btn btn-outline">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-text">Ready to transform STEM education? Contact us to learn more about our AI-powered educational videos.</p>
+            <a href="mailto:hello@eduai.com" class="btn btn-primary">Contact Us</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 EduAI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth' });
+                    // Close mobile menu if open
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                }
+            });
+        });
+
+        // Active nav link on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href').slice(1) === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
